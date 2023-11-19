@@ -4,6 +4,6 @@ int main()
 {
     int a,b;
     scanf("%d%d" ,&a,&b);
-    float c = sqrt(a*a+b*b);
-    printf("%.2f",c);
+    float c=sqrt(a*a+b*b);
+    printf("%.2f" ,c);
 }
