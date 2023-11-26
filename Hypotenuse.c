@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<math.h>
 int main()
-{
-    int a,b;
-    scanf("%d%d" ,&a,&b);
-    float c=sqrt(a*a+b*b);
-    printf("%.2f" ,c);
-}
+    {
+        int x,y;
+        scanf("%d%d",&x,&y);
+        float z=sqrt(x*x+y*y);
+        printf("%.2f",z);
+    }
